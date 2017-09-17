@@ -1,0 +1,1342 @@
+    1  yum update -y
+    2  yum install python
+    3  yum install epel-release
+    4  yum install java-1.8.0-openjdk.x86_64
+    5  clear
+    6  yum install git
+    7  git config --global user.name "vinay"
+    8  git config --global user.email "samalavinay@gmail.com"
+    9  git config --global push.default
+   10  git config --list
+   11  git config --lists
+   12  git config --list
+   13  git config --list --global
+   14  git config --list --get-all
+   15  git config --global
+   16  git config --list
+   17  clear
+   18  history
+   19  java --version
+   20  java -version
+   21  env
+   22  yum search java
+   23  yum search java | grep 'java-'
+   24  clear
+   25  cd /opt
+   26  ls
+   27  wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/bin.tar.gz
+   28  wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+   29  man tar
+   30  tar -xzf apache-maven-3.3.9-bin.tar.gz 
+   31  ls
+   32  sudo ln -s apache-maven-3.3.9 maven
+   33  ls
+   34  vim /etc/profile.d/maven.sh
+   35  source /etc/profile.d/maven.sh 
+   36  env | grep 'M2'
+   37  clear
+   38  history
+   39  mvn -version
+   40  echo $JAVA_HOME
+   41  export JAVA_HOME="/usr/lib/jvm/jre-1.8.0-openjdk"
+   42  echo $JAVA_HOME
+   43  mvn -version
+   44  history
+   45  history | tee check
+    1  cd /var/log/jenkins
+    2  ls
+    3  cd ..
+    4  cd lib/jenkins/secrets/
+    5  ls
+    6  cat initialAdminPassword 
+    7  clear
+    8  cd
+    9  history
+   10  echo $MAVEN_HOME
+   11  echo $M2_HOME
+   12  ls
+   13  cd /opt/
+   14  ls
+   15  cat check
+   16  yum install ansible
+   17  cd
+   18  yum install docker
+   19  systemctl start docker
+   20  systemctl start ansible
+   21  systemctl enable docker
+   22  history
+   23  history | tee -a /opt/check 
+    1  ssh-keygen -lv -f ~/.ssh/known_hosts
+    2  ls
+    3  ls -al
+    4  which ssh
+    5  search known_hosts
+    6  clear
+    7  vim test.sh
+    8  test.sh
+    9  ls
+   10  ./test.sh
+   11  chmod 755 test.sh 
+   12  ./test.sh
+   13  source 
+   14  source /etc/profile.d/
+   15  source /etc/profile.d/maven.sh 
+   16  ls
+   17  history
+   18  history | tee -a /opt/check 
+    1  ssh-keygen -lv -f ~/.ssh/known_hosts
+    2  ls
+    3  ls -al
+    4  which ssh
+    5  search known_hosts
+    6  clear
+    7  vim test.sh
+    8  test.sh
+    9  ls
+   10  ./test.sh
+   11  chmod 755 test.sh 
+   12  ./test.sh
+   13  source 
+   14  source /etc/profile.d/
+   15  source /etc/profile.d/maven.sh 
+   16  ls
+   17  history
+   18  history | tee -a /opt/check 
+   19  cat check
+   20  cat /opt/check
+   21  cat /etc/resolv.conf 
+   22  netstat www.google.com
+   23  cat /etc/resolv.conf 
+   24  nslookup 10.183.224.101
+   25  man ports
+   26  man port
+   27  clear
+   28  ls
+   29  mkdir project
+   30  cd project/
+   31  mkdir git1
+   32  cd git1/
+   33  which git
+   34  mkdir git2
+   35  cd git2/
+   36  git init
+   37  git init qwe.git
+   38  cd ..
+   39  rm -rf git2/
+   40  l
+   41  ls
+   42  git init gitproj.git
+   43  ls
+   44  ls gitproj.git/
+   45  ls -al gitproj.git/
+   46  cd gitproj.git/
+   47  cd .git/
+   48  ls
+   49  cd ../..
+   50  ls
+   51  git clone gitproj.git proj
+   52  ls
+   53  cd proj/
+   54  vim Hello.java
+   55  javac Hello.java 
+   56  java Hello.java 
+   57  javac Hello.java 
+   58  which javac
+   59  yum list installed | grep java
+   60  yum search java-devel
+   61  yum search openjdk-devel
+   62  yum install java-1.8.0-openjdk-devel.x86_64 -y
+   63  history
+   64  javac Hello.java 
+   65  java Hello.
+   66  java Hello
+   67  ls
+   68  cd ..
+   69  ls
+   70  history
+   71  cd proj/
+   72  git log
+   73  ls
+   74  git status
+   75  git add .
+   76  git status
+   77  git commit -a "asd"
+   78  git commit -m "asd"
+   79  git status
+   80  git push
+   81  git config --global push.default simple
+   82  git push
+   83  git status
+   84  git log
+   85  git oneline
+   86  git reset --hard
+   87  git status
+   88  git push
+   89  git push origin master 
+   90  cd ..
+   91  ls
+   92  git config --list 
+   93  git clone gitproj.git proj2
+   94  cp -r proj proj2/
+   95  ls proj2/
+   96  cd proj2/proj/
+   97  ls
+   98  ls -al
+   99  cd ..
+  100  cd..
+  101  cd ..
+  102  proj2
+  103  cd proj2/
+  104  git push
+  105  git push origin
+  106  ls
+  107  git remote add origin https://github.com/vinaysamala.java1.git
+  108  git remote -v
+  109  git push
+  110  git push .
+  111  git push master
+  112  git push origin master
+  113  cd proj/
+  114  ls
+  115  git push 
+  116  ls
+  117  cp Hello.java /opt/
+  118  ls
+  119  cd
+  120  ls
+  121  cd /opt/
+  122  ls
+  123  cp Hello.java ~/project/
+  124  cd
+  125  cd project/
+  126  ls
+  127  rm -rf git1
+  128  ls
+  129  git config --list 
+  130  git remote -v
+  131  git remote add origin https://github.com/vinaysamala/java1.git
+  132  git remote -v
+  133  git init
+  134  ls
+  135  ls -al
+  136  git remote add origin https://github.com/vinaysamala/java1.git
+  137  git remote -v
+  138  git add .
+  139  git status
+  140  git commit -m "asd"
+  141  git push
+  142  git push origin master 
+  143  git pull
+  144  ls
+  145  git pull origin master
+  146  ls
+  147  git push origin master
+  148  ls
+  149  ls -al
+  150  cd ..
+  151  git clone project/ q
+  152  ls
+  153  ls q
+  154  rm -rf q
+  155  ls
+  156  cd project/
+  157  ls
+  158  history |tee -a /opt/check 
+    1  ssh-keygen -lv -f ~/.ssh/known_hosts
+    2  ls
+    3  ls -al
+    4  which ssh
+    5  search known_hosts
+    6  clear
+    7  vim test.sh
+    8  test.sh
+    9  ls
+   10  ./test.sh
+   11  chmod 755 test.sh 
+   12  ./test.sh
+   13  source 
+   14  source /etc/profile.d/
+   15  source /etc/profile.d/maven.sh 
+   16  ls
+   17  history
+   18  history | tee -a /opt/check 
+   19  cat check
+   20  cat /opt/check
+   21  cat /etc/resolv.conf 
+   22  netstat www.google.com
+   23  cat /etc/resolv.conf 
+   24  nslookup 10.183.224.101
+   25  man ports
+   26  man port
+   27  clear
+   28  ls
+   29  mkdir project
+   30  cd project/
+   31  mkdir git1
+   32  cd git1/
+   33  which git
+   34  mkdir git2
+   35  cd git2/
+   36  git init
+   37  git init qwe.git
+   38  cd ..
+   39  rm -rf git2/
+   40  l
+   41  ls
+   42  git init gitproj.git
+   43  ls
+   44  ls gitproj.git/
+   45  ls -al gitproj.git/
+   46  cd gitproj.git/
+   47  cd .git/
+   48  ls
+   49  cd ../..
+   50  ls
+   51  git clone gitproj.git proj
+   52  ls
+   53  cd proj/
+   54  vim Hello.java
+   55  javac Hello.java 
+   56  java Hello.java 
+   57  javac Hello.java 
+   58  which javac
+   59  yum list installed | grep java
+   60  yum search java-devel
+   61  yum search openjdk-devel
+   62  yum install java-1.8.0-openjdk-devel.x86_64 -y
+   63  history
+   64  javac Hello.java 
+   65  java Hello.
+   66  java Hello
+   67  ls
+   68  cd ..
+   69  ls
+   70  history
+   71  cd proj/
+   72  git log
+   73  ls
+   74  git status
+   75  git add .
+   76  git status
+   77  git commit -a "asd"
+   78  git commit -m "asd"
+   79  git status
+   80  git push
+   81  git config --global push.default simple
+   82  git push
+   83  git status
+   84  git log
+   85  git oneline
+   86  git reset --hard
+   87  git status
+   88  git push
+   89  git push origin master 
+   90  cd ..
+   91  ls
+   92  git config --list 
+   93  git clone gitproj.git proj2
+   94  cp -r proj proj2/
+   95  ls proj2/
+   96  cd proj2/proj/
+   97  ls
+   98  ls -al
+   99  cd ..
+  100  cd..
+  101  cd ..
+  102  proj2
+  103  cd proj2/
+  104  git push
+  105  git push origin
+  106  ls
+  107  git remote add origin https://github.com/vinaysamala.java1.git
+  108  git remote -v
+  109  git push
+  110  git push .
+  111  git push master
+  112  git push origin master
+  113  cd proj/
+  114  ls
+  115  git push 
+  116  ls
+  117  cp Hello.java /opt/
+  118  ls
+  119  cd
+  120  ls
+  121  cd /opt/
+  122  ls
+  123  cp Hello.java ~/project/
+  124  cd
+  125  cd project/
+  126  ls
+  127  rm -rf git1
+  128  ls
+  129  git config --list 
+  130  git remote -v
+  131  git remote add origin https://github.com/vinaysamala/java1.git
+  132  git remote -v
+  133  git init
+  134  ls
+  135  ls -al
+  136  git remote add origin https://github.com/vinaysamala/java1.git
+  137  git remote -v
+  138  git add .
+  139  git status
+  140  git commit -m "asd"
+  141  git push
+  142  git push origin master 
+  143  git pull
+  144  ls
+  145  git pull origin master
+  146  ls
+  147  git push origin master
+  148  ls
+  149  ls -al
+  150  cd ..
+  151  git clone project/ q
+  152  ls
+  153  ls q
+  154  rm -rf q
+  155  ls
+  156  cd project/
+  157  ls
+  158  history |tee -a /opt/check 
+  159  which maven
+  160  which mvn
+  161  mvn -version
+  162  cd ..
+  163  mkdir project2
+  164  cd project2/
+  165  mvn archetype:generate
+  166  ls
+  167  cd ross/
+  168  ls
+  169  vim pom.xml 
+  170  cd src/main/java/aptean/
+  171  ls
+  172  cat App.java 
+  173  cp /opt/Hello.java 
+  174  cp /opt/Hello.java .
+  175  ls
+  176  cat Hello.java 
+  177  cd ../..
+  178  ls
+  179  cd ../..
+  180  cd project2/
+  181  ls
+  182  mvn clean
+  183  cd ross/
+  184  ls
+  185  mvn clean
+  186  echo $PATH
+  187  cd /opt/maven/
+  188  ls
+  189  cd bin/
+  190  ls
+  191  echo $.M2
+  192  echo $m2
+  193  env |m2
+  194  env | m2
+  195  env
+  196  env | grep 'java'
+  197  cd
+  198  env | grep 'java'
+  199  cd project2/ross/
+  200  ls
+  201  mvn compile
+  202  search *.class
+  203  find *.class
+  204  env
+  205  pwd
+  206  cd
+  207  cd /opt/
+  208  ls
+  209  cd maven/
+  210  ll
+  211  cd bin/
+  212  ls
+  213  cd
+  214  cd /etc/maven/
+  215  ls
+  216  mvn -version
+  217  cd /usr/local/
+  218  ls
+  219  cd
+  220  echo $M2_home
+  221  echo $M2_HOME
+  222  pwd
+  223  ls
+  224  ls -al
+  225  cd .m2/
+  226  ls
+  227  cd repository/
+  228  ls
+  229  cd
+  230  cd project2/
+  231  ls
+  232  cd ross/
+  233  ls
+  234  mvn package
+  235  vim pom.xml 
+  236  mvn clean
+  237  vim pom.xml 
+  238  mvn clean
+  239  vim pom.xml 
+  240  mvn cobertura:cobertura
+  241  cat /opt/check 
+  242  ls
+  243  man find
+  244  find . -mmin -60 -ls
+  245  find . -mmin -6000 -ls
+  246  find . -mmin -6000
+  247  history |tee -a /opt/check 
+    1  cd /var/log/jenkins
+    2  ls
+    3  cd ..
+    4  cd lib/jenkins/secrets/
+    5  ls
+    6  cat initialAdminPassword 
+    7  clear
+    8  cd
+    9  history
+   10  echo $MAVEN_HOME
+   11  echo $M2_HOME
+   12  ls
+   13  cd /opt/
+   14  ls
+   15  cat check
+   16  yum install ansible
+   17  cd
+   18  yum install docker
+   19  systemctl start docker
+   20  systemctl start ansible
+   21  systemctl enable docker
+   22  history
+   23  history | tee -a /opt/check 
+   24  cat /opt/check 
+   25  ls
+   26  clear
+   27  ls
+   28  ls -al
+   29  ls -l
+   30  pwd
+   31  tail -f /opt/check 
+   32  ps
+   33  bg
+   34  fg
+   35  cat /etc/profile
+   36  clear
+   37  history
+   38  cal
+   39  date
+   40  date +%r
+   41  date +%mm
+   42  date +%m
+   43  df -h
+   44  cat /etc/fstab 
+   45  uptime
+   46  w
+   47  tty
+   48  man tty
+   49  finger vinay
+   50  finger user
+   51  uname -a
+   52  df
+   53  df -h
+   54  du
+   55  free
+   56  which java
+   57  whereis java
+   58  cat /proc/cpuinfo 
+   59  cat /proc/meminfo
+   60  clear
+   61  ping host
+   62  ping hostname
+   63  hostname
+   64  ping localhost
+   65  who is
+   66  whois
+   67  dig -x localhost
+   68  whois domain
+   69  which whois
+   70  clear
+   71  ls
+   72  man make
+   73  cd /etc/init.d/
+   74  ls
+   75  cat jenkins 
+   76  clear
+   77  cd
+   78  man du
+   79  du -sh
+   80  du -sh /etc/
+   81  du -ash
+   82  man du
+   83  du -sh /opt/check 
+   84  df -h
+   85  man df
+   86  man kill
+   87  ls
+   88  ls /
+   89  df -h ./
+   90  cat /etc/passwd
+   91  cat /etc/group
+   92  cat /etc/shadow
+   93  history
+   94  man scp
+   95  man rsh
+   96  man sh
+   97  man ssh
+   98  clear
+   99  vim /opt/check 
+  100  python --v
+  101  python --version
+  102  python3 --version
+  103  yum install python3
+  104  yum install python-tools
+  105  idle
+  106  history |te -a /opt/check 
+  107  history |tee -a /opt/check 
+    1  ssh-keygen -lv -f ~/.ssh/known_hosts
+    2  ls
+    3  ls -al
+    4  which ssh
+    5  search known_hosts
+    6  clear
+    7  vim test.sh
+    8  test.sh
+    9  ls
+   10  ./test.sh
+   11  chmod 755 test.sh 
+   12  ./test.sh
+   13  source 
+   14  source /etc/profile.d/
+   15  source /etc/profile.d/maven.sh 
+   16  ls
+   17  history
+   18  history | tee -a /opt/check 
+   19  cat check
+   20  cat /opt/check
+   21  cat /etc/resolv.conf 
+   22  netstat www.google.com
+   23  cat /etc/resolv.conf 
+   24  nslookup 10.183.224.101
+   25  man ports
+   26  man port
+   27  clear
+   28  ls
+   29  mkdir project
+   30  cd project/
+   31  mkdir git1
+   32  cd git1/
+   33  which git
+   34  mkdir git2
+   35  cd git2/
+   36  git init
+   37  git init qwe.git
+   38  cd ..
+   39  rm -rf git2/
+   40  l
+   41  ls
+   42  git init gitproj.git
+   43  ls
+   44  ls gitproj.git/
+   45  ls -al gitproj.git/
+   46  cd gitproj.git/
+   47  cd .git/
+   48  ls
+   49  cd ../..
+   50  ls
+   51  git clone gitproj.git proj
+   52  ls
+   53  cd proj/
+   54  vim Hello.java
+   55  javac Hello.java 
+   56  java Hello.java 
+   57  javac Hello.java 
+   58  which javac
+   59  yum list installed | grep java
+   60  yum search java-devel
+   61  yum search openjdk-devel
+   62  yum install java-1.8.0-openjdk-devel.x86_64 -y
+   63  history
+   64  javac Hello.java 
+   65  java Hello.
+   66  java Hello
+   67  ls
+   68  cd ..
+   69  ls
+   70  history
+   71  cd proj/
+   72  git log
+   73  ls
+   74  git status
+   75  git add .
+   76  git status
+   77  git commit -a "asd"
+   78  git commit -m "asd"
+   79  git status
+   80  git push
+   81  git config --global push.default simple
+   82  git push
+   83  git status
+   84  git log
+   85  git oneline
+   86  git reset --hard
+   87  git status
+   88  git push
+   89  git push origin master 
+   90  cd ..
+   91  ls
+   92  git config --list 
+   93  git clone gitproj.git proj2
+   94  cp -r proj proj2/
+   95  ls proj2/
+   96  cd proj2/proj/
+   97  ls
+   98  ls -al
+   99  cd ..
+  100  cd..
+  101  cd ..
+  102  proj2
+  103  cd proj2/
+  104  git push
+  105  git push origin
+  106  ls
+  107  git remote add origin https://github.com/vinaysamala.java1.git
+  108  git remote -v
+  109  git push
+  110  git push .
+  111  git push master
+  112  git push origin master
+  113  cd proj/
+  114  ls
+  115  git push 
+  116  ls
+  117  cp Hello.java /opt/
+  118  ls
+  119  cd
+  120  ls
+  121  cd /opt/
+  122  ls
+  123  cp Hello.java ~/project/
+  124  cd
+  125  cd project/
+  126  ls
+  127  rm -rf git1
+  128  ls
+  129  git config --list 
+  130  git remote -v
+  131  git remote add origin https://github.com/vinaysamala/java1.git
+  132  git remote -v
+  133  git init
+  134  ls
+  135  ls -al
+  136  git remote add origin https://github.com/vinaysamala/java1.git
+  137  git remote -v
+  138  git add .
+  139  git status
+  140  git commit -m "asd"
+  141  git push
+  142  git push origin master 
+  143  git pull
+  144  ls
+  145  git pull origin master
+  146  ls
+  147  git push origin master
+  148  ls
+  149  ls -al
+  150  cd ..
+  151  git clone project/ q
+  152  ls
+  153  ls q
+  154  rm -rf q
+  155  ls
+  156  cd project/
+  157  ls
+  158  history |tee -a /opt/check 
+  159  which maven
+  160  which mvn
+  161  mvn -version
+  162  cd ..
+  163  mkdir project2
+  164  cd project2/
+  165  mvn archetype:generate
+  166  ls
+  167  cd ross/
+  168  ls
+  169  vim pom.xml 
+  170  cd src/main/java/aptean/
+  171  ls
+  172  cat App.java 
+  173  cp /opt/Hello.java 
+  174  cp /opt/Hello.java .
+  175  ls
+  176  cat Hello.java 
+  177  cd ../..
+  178  ls
+  179  cd ../..
+  180  cd project2/
+  181  ls
+  182  mvn clean
+  183  cd ross/
+  184  ls
+  185  mvn clean
+  186  echo $PATH
+  187  cd /opt/maven/
+  188  ls
+  189  cd bin/
+  190  ls
+  191  echo $.M2
+  192  echo $m2
+  193  env |m2
+  194  env | m2
+  195  env
+  196  env | grep 'java'
+  197  cd
+  198  env | grep 'java'
+  199  cd project2/ross/
+  200  ls
+  201  mvn compile
+  202  search *.class
+  203  find *.class
+  204  env
+  205  pwd
+  206  cd
+  207  cd /opt/
+  208  ls
+  209  cd maven/
+  210  ll
+  211  cd bin/
+  212  ls
+  213  cd
+  214  cd /etc/maven/
+  215  ls
+  216  mvn -version
+  217  cd /usr/local/
+  218  ls
+  219  cd
+  220  echo $M2_home
+  221  echo $M2_HOME
+  222  pwd
+  223  ls
+  224  ls -al
+  225  cd .m2/
+  226  ls
+  227  cd repository/
+  228  ls
+  229  cd
+  230  cd project2/
+  231  ls
+  232  cd ross/
+  233  ls
+  234  mvn package
+  235  vim pom.xml 
+  236  mvn clean
+  237  vim pom.xml 
+  238  mvn clean
+  239  vim pom.xml 
+  240  mvn cobertura:cobertura
+  241  cat /opt/check 
+  242  ls
+  243  man find
+  244  find . -mmin -60 -ls
+  245  find . -mmin -6000 -ls
+  246  find . -mmin -6000
+  247  history |tee -a /opt/check 
+  248  vim  /opt/check 
+  249  which python
+  250  python -v
+  251  python -version
+  252  find . -mmin -600 | xargs -r ls -l
+  253  find . -mmin -6000 | xargs -r ls -l
+  254  man xargs
+  255  find . -mmin -6000 | ls -l
+  256  find . -mmin -6000 | ls -l -r
+  257  find . -mmin -6000 | ls -al -r
+  258  ls -al 
+  259  cd
+  260  ls
+  261  find . -mmin -6000 | xargs -r ls -l
+  262  which python
+  263  python version
+  264  python -v
+  265  yum install idle3
+  266  yum install python34
+  267  curl -) https://bootstrap.pypa.io/get-pip.py
+  268  curl -O https://bootstrap.pypa.io/get-pip.py
+  269  sudo /usr/bin/python3.4 get-pip.py 
+  270  python3 --version
+  271  history | tee -a /opt/check 
+    1  yum update -y
+    2  yum install python
+    3  yum install epel-release
+    4  yum install java-1.8.0-openjdk.x86_64
+    5  clear
+    6  yum install git
+    7  git config --global user.name "vinay"
+    8  git config --global user.email "samalavinay@gmail.com"
+    9  git config --global push.default
+   10  git config --list
+   11  git config --lists
+   12  git config --list
+   13  git config --list --global
+   14  git config --list --get-all
+   15  git config --global
+   16  git config --list
+   17  clear
+   18  history
+   19  java --version
+   20  java -version
+   21  env
+   22  yum search java
+   23  yum search java | grep 'java-'
+   24  clear
+   25  cd /opt
+   26  ls
+   27  wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/bin.tar.gz
+   28  wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+   29  man tar
+   30  tar -xzf apache-maven-3.3.9-bin.tar.gz 
+   31  ls
+   32  sudo ln -s apache-maven-3.3.9 maven
+   33  ls
+   34  vim /etc/profile.d/maven.sh
+   35  source /etc/profile.d/maven.sh 
+   36  env | grep 'M2'
+   37  clear
+   38  history
+   39  mvn -version
+   40  echo $JAVA_HOME
+   41  export JAVA_HOME="/usr/lib/jvm/jre-1.8.0-openjdk"
+   42  echo $JAVA_HOME
+   43  mvn -version
+   44  history
+   45  history | tee check
+   46  ls
+   47  cat check 
+   48  java -version
+   49  man tee
+   50  export JRE_HOME='/usr/lib/jvm/jre'
+   51  echo $JRE_HOME
+   52  man wget
+   53  clear
+   54  cd
+   55  wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+   56  man rpm
+   57  rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
+   58  ls
+   59  yum install jenkins
+   60  systemctl start jenkins
+   61  systemctl enable jenkins
+   62  systemctl status jenkins
+   63  firewall-config
+   64  firefox
+   65  history
+   66  history | tee -a /opt/check 
+    1  ssh-keygen -lv -f ~/.ssh/known_hosts
+    2  ls
+    3  ls -al
+    4  which ssh
+    5  search known_hosts
+    6  clear
+    7  vim test.sh
+    8  test.sh
+    9  ls
+   10  ./test.sh
+   11  chmod 755 test.sh 
+   12  ./test.sh
+   13  source 
+   14  source /etc/profile.d/
+   15  source /etc/profile.d/maven.sh 
+   16  ls
+   17  history
+   18  history | tee -a /opt/check 
+   19  cat check
+   20  cat /opt/check
+   21  cat /etc/resolv.conf 
+   22  netstat www.google.com
+   23  cat /etc/resolv.conf 
+   24  nslookup 10.183.224.101
+   25  man ports
+   26  man port
+   27  clear
+   28  ls
+   29  mkdir project
+   30  cd project/
+   31  mkdir git1
+   32  cd git1/
+   33  which git
+   34  mkdir git2
+   35  cd git2/
+   36  git init
+   37  git init qwe.git
+   38  cd ..
+   39  rm -rf git2/
+   40  l
+   41  ls
+   42  git init gitproj.git
+   43  ls
+   44  ls gitproj.git/
+   45  ls -al gitproj.git/
+   46  cd gitproj.git/
+   47  cd .git/
+   48  ls
+   49  cd ../..
+   50  ls
+   51  git clone gitproj.git proj
+   52  ls
+   53  cd proj/
+   54  vim Hello.java
+   55  javac Hello.java 
+   56  java Hello.java 
+   57  javac Hello.java 
+   58  which javac
+   59  yum list installed | grep java
+   60  yum search java-devel
+   61  yum search openjdk-devel
+   62  yum install java-1.8.0-openjdk-devel.x86_64 -y
+   63  history
+   64  javac Hello.java 
+   65  java Hello.
+   66  java Hello
+   67  ls
+   68  cd ..
+   69  ls
+   70  history
+   71  cd proj/
+   72  git log
+   73  ls
+   74  git status
+   75  git add .
+   76  git status
+   77  git commit -a "asd"
+   78  git commit -m "asd"
+   79  git status
+   80  git push
+   81  git config --global push.default simple
+   82  git push
+   83  git status
+   84  git log
+   85  git oneline
+   86  git reset --hard
+   87  git status
+   88  git push
+   89  git push origin master 
+   90  cd ..
+   91  ls
+   92  git config --list 
+   93  git clone gitproj.git proj2
+   94  cp -r proj proj2/
+   95  ls proj2/
+   96  cd proj2/proj/
+   97  ls
+   98  ls -al
+   99  cd ..
+  100  cd..
+  101  cd ..
+  102  proj2
+  103  cd proj2/
+  104  git push
+  105  git push origin
+  106  ls
+  107  git remote add origin https://github.com/vinaysamala.java1.git
+  108  git remote -v
+  109  git push
+  110  git push .
+  111  git push master
+  112  git push origin master
+  113  cd proj/
+  114  ls
+  115  git push 
+  116  ls
+  117  cp Hello.java /opt/
+  118  ls
+  119  cd
+  120  ls
+  121  cd /opt/
+  122  ls
+  123  cp Hello.java ~/project/
+  124  cd
+  125  cd project/
+  126  ls
+  127  rm -rf git1
+  128  ls
+  129  git config --list 
+  130  git remote -v
+  131  git remote add origin https://github.com/vinaysamala/java1.git
+  132  git remote -v
+  133  git init
+  134  ls
+  135  ls -al
+  136  git remote add origin https://github.com/vinaysamala/java1.git
+  137  git remote -v
+  138  git add .
+  139  git status
+  140  git commit -m "asd"
+  141  git push
+  142  git push origin master 
+  143  git pull
+  144  ls
+  145  git pull origin master
+  146  ls
+  147  git push origin master
+  148  ls
+  149  ls -al
+  150  cd ..
+  151  git clone project/ q
+  152  ls
+  153  ls q
+  154  rm -rf q
+  155  ls
+  156  cd project/
+  157  ls
+  158  history |tee -a /opt/check 
+  159  which maven
+  160  which mvn
+  161  mvn -version
+  162  cd ..
+  163  mkdir project2
+  164  cd project2/
+  165  mvn archetype:generate
+  166  ls
+  167  cd ross/
+  168  ls
+  169  vim pom.xml 
+  170  cd src/main/java/aptean/
+  171  ls
+  172  cat App.java 
+  173  cp /opt/Hello.java 
+  174  cp /opt/Hello.java .
+  175  ls
+  176  cat Hello.java 
+  177  cd ../..
+  178  ls
+  179  cd ../..
+  180  cd project2/
+  181  ls
+  182  mvn clean
+  183  cd ross/
+  184  ls
+  185  mvn clean
+  186  echo $PATH
+  187  cd /opt/maven/
+  188  ls
+  189  cd bin/
+  190  ls
+  191  echo $.M2
+  192  echo $m2
+  193  env |m2
+  194  env | m2
+  195  env
+  196  env | grep 'java'
+  197  cd
+  198  env | grep 'java'
+  199  cd project2/ross/
+  200  ls
+  201  mvn compile
+  202  search *.class
+  203  find *.class
+  204  env
+  205  pwd
+  206  cd
+  207  cd /opt/
+  208  ls
+  209  cd maven/
+  210  ll
+  211  cd bin/
+  212  ls
+  213  cd
+  214  cd /etc/maven/
+  215  ls
+  216  mvn -version
+  217  cd /usr/local/
+  218  ls
+  219  cd
+  220  echo $M2_home
+  221  echo $M2_HOME
+  222  pwd
+  223  ls
+  224  ls -al
+  225  cd .m2/
+  226  ls
+  227  cd repository/
+  228  ls
+  229  cd
+  230  cd project2/
+  231  ls
+  232  cd ross/
+  233  ls
+  234  mvn package
+  235  vim pom.xml 
+  236  mvn clean
+  237  vim pom.xml 
+  238  mvn clean
+  239  vim pom.xml 
+  240  mvn cobertura:cobertura
+  241  cat /opt/check 
+  242  ls
+  243  man find
+  244  find . -mmin -60 -ls
+  245  find . -mmin -6000 -ls
+  246  find . -mmin -6000
+  247  history |tee -a /opt/check 
+  248  vim  /opt/check 
+  249  which python
+  250  python -v
+  251  python -version
+  252  find . -mmin -600 | xargs -r ls -l
+  253  find . -mmin -6000 | xargs -r ls -l
+  254  man xargs
+  255  find . -mmin -6000 | ls -l
+  256  find . -mmin -6000 | ls -l -r
+  257  find . -mmin -6000 | ls -al -r
+  258  ls -al 
+  259  cd
+  260  ls
+  261  find . -mmin -6000 | xargs -r ls -l
+  262  which python
+  263  python version
+  264  python -v
+  265  yum install idle3
+  266  yum install python34
+  267  curl -) https://bootstrap.pypa.io/get-pip.py
+  268  curl -O https://bootstrap.pypa.io/get-pip.py
+  269  sudo /usr/bin/python3.4 get-pip.py 
+  270  python3 --version
+  271  history | tee -a /opt/check 
+  272  clear
+  273  $hostname
+  274  hostname
+  275  git -version
+  276  git --v
+  277  git 
+  278  maven -v
+  279  mvnn -v
+  280  mvn -v
+  281  $m2_HOME
+  282  $M2_HOME
+  283  $M2
+  284  M2
+  285  m2
+  286  m2_home
+  287  env | grep 'M2'
+  288  mvn -v
+  289  env | grep 'java'
+  290  env | grep 'java_hom'
+  291  env | grep 'java_home'
+  292  env
+  293  cd /opt
+  294  ls
+  295  which jenkins
+  296  vim /opt/check 
+  297  clear
+  298  cat /etc/ansible/ansible.cfg 
+  299  vim /etc/ansible/ansible.cfg 
+  300  env | grep 'ANSIBLE_CONFIG'
+  301  env
+  302  yum install git python-devel python-pip openssl ansible -y
+  303  vim /etc/ansible/ansible.cfg 
+  304  adduser ansible
+  305  passwd ansible
+  306  visudo
+  307  su - ansible
+  308  cd /var/lib/jenkins/
+  309  ls
+  310  cd /etc/sysconfig/
+  311  ls
+  312  vim jenkins 
+  313  man grub
+  314  pwd
+  315  cd
+  316  ls
+  317  cd /etc/ansible/
+  318  ls
+  319  vim hosts 
+  320  hostname
+  321  ansible all --list-hosts
+  322  ansible webserver --list-hosts
+  323  vim /etc/ansible/hosts 
+  324  ansible webservers --list-hosts
+  325  ansible webservers[0] --list-hosts
+  326  ansible webservers[1] --list-hosts
+  327  ansible all -m ping
+  328  cd
+  329  su - ansible
+  330  ls
+  331  mkdir project3
+  332  cd project3/
+  333  ls
+  334  ansible -v
+  335  vim first.yml
+  336  ansible-playbook first.yml 
+  337  vim first.yml
+  338  ansible-playbook first.yml 
+  339  history 
+  340  cat /etc/ansible/hosts 
+  341  cat /etc/ansible/ansible.cfg
+  342  vim first.yml
+  343  cat /etc/ansible/ansible.cfg
+  344  vim first.yml
+  345  ansible-playbook first.yml 
+  346  vim first.yml
+  347  ansible-playbook first.yml 
+  348  vim first.yml
+  349  ansible-playbook first.yml 
+  350  hostname
+  351  vim first.yml
+  352  vim /etc/ansible/ansible.cfg 
+  353  vim first.yml
+  354  ansible-playbook first.yml 
+  355  su - ansible
+  356  ansible-playbook -s first.
+  357  ansible-playbook -s first.yml 
+  358  vim first.yml
+  359  ansible-playbook -s first.yml 
+  360  ansible-playbook first.yml 
+  361  ssh ansible@localhost.localdomain
+  362  vim first.yml
+  363  ansible-playbook first.yml 
+  364  vim first.yml
+  365  ansible-playbook first.yml 
+  366  su - ansible
+  367  ansible-playbook first.yml 
+  368  ansible-playbook first.yml  --limit @/root/project3/first.retry
+  369  vim first.yml
+  370  vim /etc/ansible/hosts 
+  371  ansible-playbook first.yml 
+  372  ls
+  373  pwd
+  374  cd ..
+  375  ls
+  376  cp project3 /etc/proj
+  377  ;s
+  378  ls
+  379  cp -r project3 /etc/proj
+  380  cd /etc/proj/
+  381  ls
+  382  su - ansible
+  383  ls
+  384  pwd
+  385  su - ansible
+  386  ls
+  387  cd ..
+  388  cd
+  389  cd project3/
+  390  ls
+  391  cp first.yml /etc/proj/
+  392  cd
+  393  su - ansible
+  394  firefox
+  395  clear
+  396  ls
+  397  pwd
+  398  cd Downloads/
+  399  ls
+  400  tar -xzvf pycharm-community-2017.2.3.tar.gz 
+  401  ls
+  402  cd pycharm-community-2017.2.3/
+  403  ls
+  404  cd bin/
+  405  ls
+  406  sh pycharm.sh 
+  407  history | tee -a /opt/check 
